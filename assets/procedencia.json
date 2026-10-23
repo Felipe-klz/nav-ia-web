@@ -1,0 +1,142 @@
+[
+  {
+    "key": "cap01",
+    "title": "Bastidor inicial isométrico",
+    "checked": "Distribución de ocho montantes y módulos440/520/440.",
+    "uncertain": "Sin uniones añadidas todavía.",
+    "provenance": "capture_cad",
+    "id": "8e6e07a27fb74328bec51b776599a84d",
+    "revision": "1c1fb4c6ac0546a499f0e04f5e14ef23",
+    "sha256": "9e2f71cbad2853dfb847bc0c861d187d4cd8c438b87d315262c774f4e0b13850"
+  },
+  {
+    "key": "cap03",
+    "title": "Sección reconstruida del perfil",
+    "checked": "Se observan cuatro ranuras y núcleo; dimensión medida40×40.",
+    "uncertain": "Reconstrucción poligonal, no CAD oficial; área +1,62%.",
+    "provenance": "capture_cad",
+    "id": "afe7b79e2a2447aa9a5731f78e8385e7",
+    "revision": "1c1fb4c6ac0546a499f0e04f5e14ef23",
+    "sha256": "96eda0d7e25344a0852acb0e54f1d60d71cf94506b7b05a19bf1ab228808f6f6"
+  },
+  {
+    "key": "cap05",
+    "title": "Antes: unión aislada incorrecta",
+    "checked": "La receta rotada no propagó orientación del sólido en el generador.",
+    "uncertain": "No montar con esta configuración.",
+    "provenance": "capture_cad",
+    "id": "11665602bdc64b9e90c25766d1e32ebc",
+    "revision": "afc45643657f42c0b0530f688650cd15",
+    "sha256": "beab825e5e0496f6cf71f0de473fd5e1e3b401afa9fa55e36a41066e4cae9a9a"
+  },
+  {
+    "key": "cap06",
+    "title": "Después: ejes de fijación corregidos",
+    "checked": "Tornillos perpendiculares a las caras correspondientes.",
+    "uncertain": "Tuerca y espesor de escuadra siguen simplificados.",
+    "provenance": "capture_cad",
+    "id": "ad4edaf9ffe24520a43809892ca1eb2a",
+    "revision": "87a0e429167a47afbd7647f4d0e74873",
+    "sha256": "0c76ab4a42d92be00218e3cc6eaf124d6c5a2d152752c0ea96df55ce88e6bf6d"
+  },
+  {
+    "key": "live25",
+    "title": "Inferior final: apoyos del piso",
+    "checked": "Tres líneas de apoyo por módulo y base ampliada.",
+    "uncertain": "No incluye validación de carga de conectores.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "84c5c237b87042598906621445d5efe7",
+    "revision": "2cd0ccac5c064a898b7c3c089c2008b2",
+    "sha256": "325d2c9210764d566a220fd148a35ac9b64cb5853781e51a076d915eec59bfde"
+  },
+  {
+    "key": "live28",
+    "title": "Corte madera–aluminio: paquete del tornillo",
+    "checked": "Screw azul y tuerca naranja distinguen arandela, madera y ranura.",
+    "uncertain": "Rosca simplificada; penetración intencional separada de colisión real.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "e4f2614cd18f4e07ad4af9765047aeb8",
+    "revision": "2cd0ccac5c064a898b7c3c089c2008b2",
+    "sha256": "d7454ec5d2952e792fe8609d4617e1356b4d01b81dc46f1117ff07931e4f32f8"
+  },
+  {
+    "key": "live30",
+    "title": "Cajones y puertas abiertos",
+    "checked": "Seis cajones a508mm y puertas a86°.",
+    "uncertain": "Apertura rígida, no simula cuatro barras ni barrido continuo.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "ec4a9abc2fb744a9a0f2b48d7b0b2608",
+    "revision": "9ec500096a4c4616b515ab9f80965a0d",
+    "sha256": "dc7390e6a7beb7eb6b9923719e6b54741d21606fa4a819b59bf5d6d5033074a6"
+  },
+  {
+    "key": "live32",
+    "title": "Vista explotada por subsistemas",
+    "checked": "Se distinguen tapa reemplazable, panel de herramientas, carcasa central, módulos de cajones y puertas separados del bastidor.",
+    "uncertain": "Desplazamientos documentales, no secuencia cinemática; algunos herrajes permanecen agrupados según posición; no agrega piezas al cómputo.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "78192cd6dfe842989b9a868febd0ff6c",
+    "revision": "2cd0ccac5c064a898b7c3c089c2008b2",
+    "sha256": "3ed31a63bb4d3dc15b5f0a776f6bb22d12145083e612f3411ba1c8e6ec96a450"
+  },
+  {
+    "key": "live33",
+    "title": "Par de correderas a extensión final",
+    "checked": "Dos conjuntos con tres miembros desplazados; se diferencia la parte fija de la móvil.",
+    "uncertain": "Modelo funcional plano; no reproduce rodamientos, todos los taladros ni desmontaje de la corredera. La extensión no acredita capacidad de carga.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "041cb9f9494f4dc7a3f660d5ac29fb13",
+    "revision": "9ec500096a4c4616b515ab9f80965a0d",
+    "sha256": "9a62fbdf7ba898cc8b96799820897d6086b4bb5b70ac6c84cc9ce33a8635bff2"
+  },
+  {
+    "key": "live34",
+    "title": "Bisagra corregida: cazoleta y placa",
+    "checked": "Cazoleta orientada hacia la perforación de la puerta; placa y brazo se distinguen.",
+    "uncertain": "Brazo rectangular provisional: no representa mecanismo Blum ni volumen barrido. Taladros visualizados no acreditan tornillo recomendado; pendiente CAD oficial y clip86°.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "0dfffe6f52e543dbbe76ffcd7f52a7c2",
+    "revision": "2cd0ccac5c064a898b7c3c089c2008b2",
+    "sha256": "8bb526a79db3288bcef5e7dd7c0192aa1b06c3d6f751a9756980d4d557f051d0"
+  },
+  {
+    "key": "live36",
+    "title": "Fijación de tapa desde abajo",
+    "checked": "Escuadra de acero bajo la tapa, tornillo de madera accesible desde abajo y enlace al lateral del perfil.",
+    "uncertain": "No acredita pretaladro de madera ni par de apriete; corte de contexto excluido del conteo.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "3ba47d32504b4346b1853d304a5bd056",
+    "revision": "2cd0ccac5c064a898b7c3c089c2008b2",
+    "sha256": "4a1abc6653f544abd7b73857cb6fdc06193ee1863c6200a5a00b96c8a6112e95"
+  },
+  {
+    "key": "live38",
+    "title": "E15 después: tornillos propios para ángulo de cajón",
+    "checked": "Dos tornillos de maderaØ4×12 con cabezaØ7,9×2,8 montados por caras perpendiculares del ángulo1,5mm.",
+    "uncertain": "Rosca sin hélice; penetración en madera10,5mm nominal. Resistencia de extracción y pretaladro por ensayo/ficha de tablero.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "a5aa63c87e4140dcadfa78f552a2f7fd",
+    "revision": "ec1365e317314ec9bcf50d1c8c4a8fa6",
+    "sha256": "07a83df47c4a09932c54b6e9cd1157d80d5f4454700f9696cdcaffb47af62bb4"
+  },
+  {
+    "key": "live39",
+    "title": "Conjunto cerrado final",
+    "checked": "Seis cajones de alturas distintas, dos puertas centrales, tapa reemplazable, bastidor y base ampliada con cuatro niveladores.",
+    "uncertain": "Aspecto completo no acredita capacidad ni disponibilidad comercial; pendientes en informe.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "1263f1f44ac94dc7814006f5c275ea09",
+    "revision": "ec1365e317314ec9bcf50d1c8c4a8fa6",
+    "sha256": "362e67c08f11583472a6998e76df91d5ef0316fa0546a47fe6f192caadc84ebf"
+  },
+  {
+    "key": "live40",
+    "title": "Posterior final tras corregir canal y soportes",
+    "checked": "Canal reducido y soportes repartidos bajo travesaño posterior; panel de herramientas con ocho fijaciones.",
+    "uncertain": "La proyección posterior oculta profundidad; la separación se comprueba con booleanas, no con esta imagen sola.",
+    "provenance": "freecad_bridge/get_view",
+    "id": "bf39d668122c4103ab6e48b2d17f2702",
+    "revision": "ec1365e317314ec9bcf50d1c8c4a8fa6",
+    "sha256": "75f9c93854b83867bdfa8fb90988cc9cd14c504e79142698dd9d11916f2c8c5e"
+  }
+]

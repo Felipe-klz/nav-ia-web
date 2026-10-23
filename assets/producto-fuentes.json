@@ -1,0 +1,50 @@
+{
+  "consultado": "2026-10-23",
+  "fuente": "Guía consultada directamente mediante MCP nav_ia",
+  "version_guia": "0.2.0",
+  "capacidades": [
+    {
+      "area": "Autoría con contexto acotado",
+      "description": "part_context recupera región, variables pertinentes y extractos de ingeniería; add_part agrega una pieza con respuesta breve, resolviendo herencias y grupos en servidor."
+    },
+    {
+      "area": "Trazado del agente",
+      "description": "Sesiones de llamadas, argumentos/respuestas y estado visual posterior por revisión, con interruptores independientes. Lista paginada, detalle bajo pedido y cronología en el dashboard. No registra razonamiento privado del LLM."
+    },
+    {
+      "area": "Grupos dinámicos",
+      "description": "Agrupaciones semánticas superpuestas, separadas del árbol físico. Pertenencia derivada por atributos/IDs y vista inversa por pieza. Variables de grupo evaluadas una vez en origen; prioridades y conflictos explícitos."
+    },
+    {
+      "area": "Recuperación rápida",
+      "description": "Búsqueda FTS SQLite por revisión, lectura selectiva y recorrido acotado de relaciones con localizadores exactos. No se infieren hechos de una coincidencia de texto."
+    },
+    {
+      "area": "Variables",
+      "description": "Nombre único, valor o fórmula, propietario global/grupo/pieza, regiones compartidas y excepciones heredables. Mover o renombrar conserva referencias."
+    },
+    {
+      "area": "Ensambles",
+      "description": "Agrupar, reasignar, trasladar, rotar y repetir subárboles. preview=true prueba operaciones sin guardar; cada edición es atómica y versionada."
+    },
+    {
+      "area": "Ingeniería",
+      "description": "Resúmenes y notas libres, datos, alternativas, evidencia y contexto propio/heredado. Se pueden seguir agregando variables y conocimiento."
+    },
+    {
+      "area": "FreeCAD",
+      "description": "Primitivas y recetas abiertas freecad_python con bindings recalculables. Puente al MCP neka-nat/freecad-mcp para operar FreeCAD y recibir sus imágenes. op=properties modifica propiedades en lote."
+    },
+    {
+      "area": "Feedback visual",
+      "description": "capture_cad devuelve PNG nativo al LLM y al dashboard, con cámara, selección por atributos, recorte, colores e identidad de las piezas visibles."
+    }
+  ],
+  "evidencia_caso": {
+    "id": "BANCO-MODULAR-AR-20261023",
+    "revision": "ec1365e317314ec9bcf50d1c8c4a8fa6",
+    "verificacion": "downloads/control-entrega.json"
+  },
+  "industrias": "Aplicaciones propuestas. No son clientes o proyectos acreditados.",
+  "publicacion": "GitHub Pages; repositorio Felipe-klz/nav-ia-web. Consultar estado de despliegue en GitHub."
+}
