@@ -43,7 +43,7 @@
   "evidencia_caso": {
     "id": "BANCO-MODULAR-AR-20261023",
     "revision": "ec1365e317314ec9bcf50d1c8c4a8fa6",
-    "verificacion": "downloads/control-entrega.json"
+    "verificacion": "index.html#alcance"
   },
   "industrias": "Aplicaciones propuestas. No son clientes o proyectos acreditados.",
   "publicacion": "GitHub Pages; repositorio Felipe-klz/nav-ia-web. Consultar estado de despliegue en GitHub."
